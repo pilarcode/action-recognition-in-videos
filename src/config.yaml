@@ -1,0 +1,9 @@
+labels:
+  - flamenco
+  - waltz
+
+model: model.h5 
+
+seq_len: 20
+img_height : 64
+img_width: 64
