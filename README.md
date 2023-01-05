@@ -8,6 +8,7 @@ En segundo lugar, se implementa una API con dos servicios uno para cada modelo. 
 ![inferencia ejemplos](https://github.com/pilarcode/action-recognition-in-videos/blob/master/images/ejemplo_inferencia.png)
 
 ## Notes 
+El primer modelo se entreno aplicando transfer learning sobre un modelo ya pre-entrenado y el segundo modelo se entrenó desde cero aplicando filtros convolucionales 3D para reconocer las características espacio-temporales.
 
 ![table 1](https://github.com/pilarcode/action-recognition-in-videos/blob/master/images/table1.png)
 
