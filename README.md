@@ -6,7 +6,7 @@ En primer lugar, se entrenan dos modelos con dos enfoques diferentes utilizando 
 
 ![Dataset ejemplos](https://www.cc.gatech.edu/cpl/projects/dance/img/paper_figure.png)
 
-En segundo lugar, se implementa una API con dos servicios, un servicio para testear cada modelo con videos no vistos por el modelo. Cada servicio recibe una url y devuelve un json con la etiqueta y la confianza del modelo para cada clase posible.
+En segundo lugar, se implementa una API básica con Flask que contiene dos servicios, un servicio por modelo, para testear cada modelo con videos no vistos por el modelo durante el entrenamiento. Cada servicio de la API recibe una url y devuelve un json con la etiqueta y la confianza del modelo sobre la predicción para cada clase que es capaz de renocer. En este experimento el modelo aprendió a renocer 4 tipos de baile.
 
 ![inferencia ejemplos](https://github.com/pilarcode/action-recognition-in-videos/blob/master/images/ejemplo_inferencia.png)
 
