@@ -1,7 +1,7 @@
 # Action Recognition in videos 
 
 ## Overview 
-Mi **Trabajo fin de Máster** sobre el reconocimiento de acciones en los videos sobre un dominio concreto, el baile. 
+Mi proyecto sobre reconocimiento de acciones en los videos sobre un dominio concreto, el baile. 
 En primer lugar, se entrenan dos modelos con dos enfoques diferentes utilizando el dataset de [Let's Dance](https://www.cc.gatech.edu/cpl/projects/dance/)
 
 ![Dataset ejemplos](https://www.cc.gatech.edu/cpl/projects/dance/img/paper_figure.png)
